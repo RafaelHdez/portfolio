@@ -65,17 +65,17 @@ https://templatemo.com/tm-600-prism-flux
 
         // Skills data
         const skillsData = [
-            { name: 'Unity', icon: '⚛️', level: 95, category: 'frontend' },
-            { name: 'Flutter', icon: '🟢', level: 90, category: 'backend' },
-            { name: 'Godot', icon: '📘', level: 88, category: 'frontend' },
-            { name: 'MetaSDK', icon: '☁️', level: 92, category: 'cloud' },
-            { name: 'AR Core', icon: '🐳', level: 85, category: 'cloud' },
-            { name: 'Dart', icon: '🐍', level: 93, category: 'backend' },
+            { name: 'Unity', icon: './images/logos/unity-logo.png', level: 95, category: 'frontend' },
+            { name: 'Flutter', icon: '/images/logos/flutter-logo.png', level: 90, category: 'backend' },
+            { name: 'Godot', icon: '/images/logos/godot-logo.png', level: 88, category: 'frontend' },
+            { name: 'MetaSDK', icon: '/images/logos/meta-logo.png', level: 92, category: 'cloud' },
+            { name: 'AR Core', icon: '/images/logos/arcore-logo.svg', level: 85, category: 'cloud' },
+            { name: 'Dart', icon: '/images/logos/dart-logo.png', level: 93, category: 'emerging' },
             { name: 'Kubernetes', icon: '☸️', level: 82, category: 'cloud' },
             // { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' },
-            { name: 'TensorFlow', icon: '🤖', level: 78, category: 'emerging' },
-            { name: 'Blockchain', icon: '🔗', level: 75, category: 'emerging' },
-            { name: 'Unreal Engine', icon: '💚', level: 85, category: 'frontend' },
+            { name: 'C#', icon: '/images/logos/csharp-logo.png', level: 78, category: 'emerging' },
+            { name: 'Python', icon: '/images/logos/python-logo.png', level: 75, category: 'emerging' },
+            { name: 'Unreal Engine', icon: '/images/logos/unreal-logo.svg', level: 85, category: 'frontend' },
             // { name: 'MongoDB', icon: '🍃', level: 90, category: 'backend' }
         ];
 
@@ -286,7 +286,9 @@ https://templatemo.com/tm-600-prism-flux
                     hexagon.innerHTML = `
                         <div class="hexagon-inner">
                             <div class="hexagon-content">
-                                <div class="skill-icon-hex">${skill.icon}</div>
+                                <div class="skill-icon-hex">
+                                    <img src="${skill.icon}" alt="${skill.name}"
+                                </div>
                                 <div class="skill-name-hex">${skill.name}</div>
                                 <div class="skill-level">
                                     <div class="skill-level-fill" style="width: ${skill.level}%"></div>
