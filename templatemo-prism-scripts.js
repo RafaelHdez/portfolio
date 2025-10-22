@@ -14,53 +14,46 @@ https://templatemo.com/tm-600-prism-flux
         const portfolioData = [
             {
                 id: 1,
-                title: 'Neural Network',
-                description: 'Advanced AI system with deep learning capabilities for predictive analytics and pattern recognition.',
+                title: 'Advergame "Al Gusto Cooking"',
+                description: 'Advergame móvil, donde los jugadores preparan deliciosas recetas usando productos de la marca Al Gusto. Desarrollado en Unity con C#, combinando una experiencia divertida, rápida y visualmente atractiva gracias a un diseño UI/UX elaborado en Figma.',
                 image: 'images/neural-network.jpg',
-                tech: ['TensorFlow', 'Python', 'CUDA']
+                tech: ['Unity', 'Figma', 'C#']
             },
             {
                 id: 2,
-                title: 'Quantum Cloud',
-                description: 'Next-generation cloud infrastructure leveraging quantum computing for unprecedented processing power.',
+                title: 'App móvil "SkillBridge"',
+                description: 'Aplicación móvil que conecta clientes y freelancers mediante propuestas de proyectos. Desarrollada con Flutter, Dart y Firebase en Android Studio.',
                 image: 'images/quantum-cloud.jpg',
-                tech: ['AWS', 'Kubernetes', 'Docker']
+                tech: ['Android Studio', 'Flutter', 'Dart', 'Firebase']
             },
             {
                 id: 3,
-                title: 'Blockchain Vault',
-                description: 'Secure decentralized storage solution using advanced encryption and distributed ledger technology.',
+                title: 'App móvil "CORE 3D print"',
+                description: 'Aplicación móvil para calcular costos de impresión 3D de forma rápida y precisa. Desarrollada con Flutter, Dart y Android Studio.',
                 image: 'images/blockchain-vault.jpg',
-                tech: ['Ethereum', 'Solidity', 'Web3']
+                tech: ['Android Studio', 'Flutter', 'Dart']
             },
             {
                 id: 4,
-                title: 'Cyber Defense',
-                description: 'Military-grade cybersecurity framework with real-time threat detection and automated response.',
+                title: 'Videojuego "Trick or Fear"',
+                description: 'Videojuego de Halloween donde el jugador enfrenta y supera distintas fobias. Desarrollado con Unity y C#, con modelos 3D creados en Blender.',
                 image: 'images/cyber-defense.jpg',
-                tech: ['Zero Trust', 'AI Defense', 'Encryption']
+                tech: ['Unity', 'Blender', 'C#']
             },
             {
                 id: 5,
-                title: 'Data Nexus',
-                description: 'Big data processing platform capable of analyzing petabytes of information in real-time.',
+                title: 'App móvil "Planets AR"',
+                description: 'Aplicación móvil en Unity con ARCore que permite explorar los planetas del sistema solar en realidad aumentada desde un dispositivo móvil',
                 image: 'images/data-nexus.jpg',
-                tech: ['Apache Spark', 'Hadoop', 'Kafka']
+                tech: ['Unity', 'ARCore', 'C#']
             },
             {
                 id: 6,
-                title: 'AR Interface',
-                description: 'Augmented reality system for immersive data visualization and interactive experiences.',
+                title: 'Videojuego "The Haunted House"',
+                description: 'Videojuego de terror en Unity y C# donde el jugador debe escapar de una misteriosa casa embrujada.',
                 image: 'images/ar-interface.jpg',
-                tech: ['Unity', 'ARCore', 'Computer Vision']
+                tech: ['Unity', 'C#']
             },
-            {
-                id: 7,
-                title: 'IoT Matrix',
-                description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
-                image: 'images/iot-matrix.jpg',
-                tech: ['MQTT', 'Edge AI', '5G']
-            }
         ];
 
         // Skills data
@@ -71,7 +64,7 @@ https://templatemo.com/tm-600-prism-flux
             { name: 'MetaSDK', icon: '/images/logos/meta-logo.png', level: 92, category: 'cloud' },
             { name: 'AR Core', icon: '/images/logos/arcore-logo.svg', level: 85, category: 'cloud' },
             { name: 'Dart', icon: '/images/logos/dart-logo.png', level: 93, category: 'emerging' },
-            { name: 'Kubernetes', icon: '☸️', level: 82, category: 'cloud' },
+            { name: 'Android Studio', icon: '/images/logos/androidstudio-logo.png', level: 82, category: 'backend' },
             // { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' },
             { name: 'C#', icon: '/images/logos/csharp-logo.png', level: 78, category: 'emerging' },
             { name: 'Python', icon: '/images/logos/python-logo.png', level: 75, category: 'emerging' },
