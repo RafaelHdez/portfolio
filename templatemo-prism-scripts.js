@@ -65,18 +65,18 @@ https://templatemo.com/tm-600-prism-flux
         // Skills data
         const skillsData = [
             { name: 'Unity', icon: './images/logos/unity-logo.png', level: 95, category: 'frontend' },
-            { name: 'Flutter', icon: '/images/logos/flutter-logo.png', level: 90, category: 'backend' },
-            { name: 'Godot', icon: '/images/logos/godot-logo.png', level: 80, category: 'frontend' },
-            { name: 'MetaSDK', icon: '/images/logos/meta-logo.png', level: 85, category: 'cloud' },
-            { name: 'AR Core', icon: '/images/logos/arcore-logo.svg', level: 85, category: 'cloud' },
-            { name: 'C#', icon: '/images/logos/csharp-logo.png', level: 90, category: 'emerging' },
-            { name: 'Dart', icon: '/images/logos/dart-logo.png', level: 80, category: 'emerging' },
-            { name: 'Android Studio', icon: '/images/logos/androidstudio-logo.png', level: 85, category: 'backend' },
+            { name: 'Flutter', icon: './images/logos/flutter-logo.png', level: 90, category: 'backend' },
+            { name: 'Godot', icon: './images/logos/godot-logo.png', level: 80, category: 'frontend' },
+            { name: 'MetaSDK', icon: './images/logos/meta-logo.png', level: 85, category: 'cloud' },
+            { name: 'AR Core', icon: './images/logos/arcore-logo.svg', level: 85, category: 'cloud' },
+            { name: 'C#', icon: './images/logos/csharp-logo.png', level: 90, category: 'emerging' },
+            { name: 'Dart', icon: './images/logos/dart-logo.png', level: 80, category: 'emerging' },
+            { name: 'Android Studio', icon: './images/logos/androidstudio-logo.png', level: 85, category: 'backend' },
             // { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' },
-            { name: 'Python', icon: '/images/logos/python-logo.png', level: 85, category: 'emerging' },
-            { name: 'Unreal Engine', icon: '/images/logos/unreal-logo.svg', level: 80, category: 'frontend' },
-            { name: 'Figma', icon: '/images/logos/figma-logo.png', level: 85, category: 'design' },
-            { name: 'Adobe XD', icon: '/images/logos/adobexd-logo.png', level: 85, category: 'design' },
+            { name: 'Python', icon: './images/logos/python-logo.png', level: 85, category: 'emerging' },
+            { name: 'Unreal Engine', icon: './images/logos/unreal-logo.svg', level: 80, category: 'frontend' },
+            { name: 'Figma', icon: './images/logos/figma-logo.png', level: 85, category: 'design' },
+            { name: 'Adobe XD', icon: './images/logos/adobexd-logo.png', level: 85, category: 'design' },
             // { name: 'MongoDB', icon: '🍃', level: 90, category: 'backend' }
         ];
 
