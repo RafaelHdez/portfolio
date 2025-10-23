@@ -16,43 +16,49 @@ https://templatemo.com/tm-600-prism-flux
                 id: 1,
                 title: 'Advergame "Al Gusto Cooking"',
                 description: 'Advergame móvil, donde los jugadores preparan deliciosas recetas usando productos de la marca Al Gusto. Desarrollado en Unity con C#, combinando una experiencia divertida, rápida y visualmente atractiva gracias a un diseño UI/UX elaborado en Figma.',
-                image: 'images/neural-network.jpg',
-                tech: ['Unity', 'Figma', 'C#']
+                image: 'images/proyectos/algusto.jpeg',
+                tech: ['Unity', 'Figma', 'C#'],
+                url: 'https://www.figma.com/design/gkvVFBHtQxScysQlkePMl5/Advergame-Al-Gusto-Cooking?node-id=0-1&t=2G0GSKxCRXl04IdW-1'
             },
             {
                 id: 2,
                 title: 'App móvil "SkillBridge"',
                 description: 'Aplicación móvil que conecta clientes y freelancers mediante propuestas de proyectos. Desarrollada con Flutter, Dart y Firebase en Android Studio.',
-                image: 'images/quantum-cloud.jpg',
-                tech: ['Android Studio', 'Flutter', 'Dart', 'Firebase']
+                image: 'images/proyectos/skill.png',
+                tech: ['Android Studio', 'Flutter', 'Dart', 'Firebase'],
+                url: 'https://github.com/RafaelHdez/skillbridge-app.git'
             },
             {
                 id: 3,
                 title: 'App móvil "CORE 3D print"',
                 description: 'Aplicación móvil para calcular costos de impresión 3D de forma rápida y precisa. Desarrollada con Flutter, Dart y Android Studio.',
-                image: 'images/blockchain-vault.jpg',
-                tech: ['Android Studio', 'Flutter', 'Dart']
+                image: 'images/proyectos/core.png',
+                tech: ['Android Studio', 'Flutter', 'Dart'],
+                url: 'https://github.com/RafaelHdez/app_3d_print.git'
             },
             {
                 id: 4,
                 title: 'Videojuego "Trick or Fear"',
                 description: 'Videojuego de Halloween donde el jugador enfrenta y supera distintas fobias. Desarrollado con Unity y C#, con modelos 3D creados en Blender.',
-                image: 'images/cyber-defense.jpg',
-                tech: ['Unity', 'Blender', 'C#']
+                image: 'images/proyectos/Captura2.png',
+                tech: ['Unity', 'Blender', 'C#'],
+                url: 'https://www.figma.com/design/mkmwYny34pfjLgn9ZeTcWd/Trick-or-Fear-Wireframes?node-id=0-1&t=2zlQRC00RHf3bkGa-1'
             },
             {
                 id: 5,
                 title: 'App móvil "Planets AR"',
                 description: 'Aplicación móvil en Unity con ARCore que permite explorar los planetas del sistema solar en realidad aumentada desde un dispositivo móvil',
-                image: 'images/data-nexus.jpg',
-                tech: ['Unity', 'ARCore', 'C#']
+                image: 'images/proyectos/ar.png',
+                tech: ['Unity', 'ARCore', 'C#'],
+                url: 'https://github.com/RafaelHdez/AR-Project.git'
             },
             {
                 id: 6,
                 title: 'Videojuego "The Haunted House"',
                 description: 'Videojuego de terror en Unity y C# donde el jugador debe escapar de una misteriosa casa embrujada.',
-                image: 'images/ar-interface.jpg',
-                tech: ['Unity', 'C#']
+                image: 'images/proyectos/CAPTURA.png',
+                tech: ['Unity', 'C#'],
+                url: ''
             },
         ];
 
@@ -60,15 +66,17 @@ https://templatemo.com/tm-600-prism-flux
         const skillsData = [
             { name: 'Unity', icon: './images/logos/unity-logo.png', level: 95, category: 'frontend' },
             { name: 'Flutter', icon: '/images/logos/flutter-logo.png', level: 90, category: 'backend' },
-            { name: 'Godot', icon: '/images/logos/godot-logo.png', level: 88, category: 'frontend' },
-            { name: 'MetaSDK', icon: '/images/logos/meta-logo.png', level: 92, category: 'cloud' },
+            { name: 'Godot', icon: '/images/logos/godot-logo.png', level: 80, category: 'frontend' },
+            { name: 'MetaSDK', icon: '/images/logos/meta-logo.png', level: 85, category: 'cloud' },
             { name: 'AR Core', icon: '/images/logos/arcore-logo.svg', level: 85, category: 'cloud' },
-            { name: 'Dart', icon: '/images/logos/dart-logo.png', level: 93, category: 'emerging' },
-            { name: 'Android Studio', icon: '/images/logos/androidstudio-logo.png', level: 82, category: 'backend' },
+            { name: 'C#', icon: '/images/logos/csharp-logo.png', level: 90, category: 'emerging' },
+            { name: 'Dart', icon: '/images/logos/dart-logo.png', level: 80, category: 'emerging' },
+            { name: 'Android Studio', icon: '/images/logos/androidstudio-logo.png', level: 85, category: 'backend' },
             // { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' },
-            { name: 'C#', icon: '/images/logos/csharp-logo.png', level: 78, category: 'emerging' },
-            { name: 'Python', icon: '/images/logos/python-logo.png', level: 75, category: 'emerging' },
-            { name: 'Unreal Engine', icon: '/images/logos/unreal-logo.svg', level: 85, category: 'frontend' },
+            { name: 'Python', icon: '/images/logos/python-logo.png', level: 85, category: 'emerging' },
+            { name: 'Unreal Engine', icon: '/images/logos/unreal-logo.svg', level: 80, category: 'frontend' },
+            { name: 'Figma', icon: '/images/logos/figma-logo.png', level: 85, category: 'design' },
+            { name: 'Adobe XD', icon: '/images/logos/adobexd-logo.png', level: 85, category: 'design' },
             // { name: 'MongoDB', icon: '🍃', level: 90, category: 'backend' }
         ];
 
@@ -134,7 +142,7 @@ https://templatemo.com/tm-600-prism-flux
                     <h3 class="card-title">${data.title}</h3>
                     <p class="card-description">${data.description}</p>
                     <div class="card-tech">${techBadges}</div>
-                    <button class="card-cta" onclick="scrollToSection('about')">Explore</button>
+                    <button class="card-cta" onclick="window.open('${data.url}', '_blank')">Ver más</button>
                 </div>
             `;
             
